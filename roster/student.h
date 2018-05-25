@@ -8,19 +8,19 @@ public:
 	Student (string newStudentID, string newFirstName, string newLastName, string newEmail, int newAge, int newDaysToCompleteCourse[3], Degree newDegree);
 	~Student ();
 	string GetID();
-	void SetID();
+	void SetID(string newStudentID);
 	string GetFirstName();
-	void SetFirstName();
+	void SetFirstName(string newFirstName);
 	string GetLastName();
-	void SetLastName();
+	void SetLastName(string newLastName);
 	string GetEmail();
-	void SetEmail();
+	void SetEmail(string newEmail);
 	int GetAge();
-	void SetAge();
+	void SetAge(int newAge);
 	int* GetDaysToCompleteCourse();
-	void SetDaysToCompleteCourse(int* days);
+	void SetDaysToCompleteCourse(int days[]);
 	virtual Degree GetDegreeProgram();
-	void SetDegreeProgram();
+	void SetDegreeProgram(Degree deg);
 	virtual void Print();
 
 private:
