@@ -1,5 +1,8 @@
 #pragma once
 #include "student.h"
+#include "securityStudent.h"
+#include "networkStudent.h"
+#include "softwareStudent.h"
 
 class Roster
 {
