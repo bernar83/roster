@@ -16,6 +16,6 @@ public:
 	void PrintByDegreeProgram(Degree degree);
 
 private:
-	Student * ClassRosterArray[5] = { nullptr, nullptr, nullptr, nullptr, nullptr };
+	Student * ClassRosterArray[6] = { nullptr, nullptr, nullptr, nullptr, nullptr, nullptr };
 
 };
