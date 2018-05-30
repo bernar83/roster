@@ -19,7 +19,7 @@ public:
 	void SetAge(int newAge);
 	int* GetDaysToCompleteCourse();
 	void SetDaysToCompleteCourse(int days[]);
-	virtual Degree GetDegreeProgram();
+	virtual Degree GetDegreeProgram() = 0;
 	void SetDegreeProgram(Degree deg);
 	virtual void Print();
 

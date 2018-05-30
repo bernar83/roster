@@ -51,10 +51,6 @@ void Student::SetDaysToCompleteCourse(int days[]) {
 	}
 }
 
-Degree Student::GetDegreeProgram() {
-	
-}
-
 void Student::SetDegreeProgram(Degree deg) {
 	degree = deg;
 }
