@@ -74,7 +74,7 @@ void Student::Print() {
 	cout << "First Name: " << GetFirstName() << '\t';
 	cout << "Last Name: " << GetLastName() << '\t';
 	cout << "Age: " << GetAge() << '\t';
-	cout << "daysInCourse: " << '{' << days[0] << ', ' << days[1] << ', ' << days[2] << "}\t";
+	cout << "daysInCourse: " << '{' << days[0] << ", " << days[1] << ", " << days[2] << "}\t";
 	cout << "Degree Program: " << degree << endl;
 }
 
