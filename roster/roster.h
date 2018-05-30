@@ -14,8 +14,6 @@ public:
 	void PrintDaysInCourse(string studentID);
 	void PrintInvalidEmails();
 	void PrintByDegreeProgram(Degree degree);
-
-private:
 	Student * ClassRosterArray[6] = { nullptr, nullptr, nullptr, nullptr, nullptr };
 
 };
